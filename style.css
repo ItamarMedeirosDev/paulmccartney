@@ -1,0 +1,265 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'beat';
+    src: url(fonts/BOOTLE__.TTF);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: F5F5F5;
+}
+section{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #353535;
+}
+header h1{
+    font-family: 'beat';
+    color: white;
+    font-weight: 100;
+    font-size:47px;
+    padding: 30px;
+    
+}
+header nav a, header nav li{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-decoration: none;
+    display: inline;
+    font-weight: 300;
+    font-size: 22px;
+    align-items: flex;
+    margin-left: 15px;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+  }
+#about img{
+    height:468px;
+    border-radius: 20px;
+    margin: 30px 0px -40px 0px;
+}
+#about{
+    display: flex;
+}
+section #mainimg{
+    box-shadow: 0px 1px 5px 0px #353535d3
+}
+section .container{
+    margin-top: 40px;
+    text-align: justify;
+}
+section #sobre{
+    margin-left: 30px;
+}
+section .container p{
+    margin-top: 25px;
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: 300;
+    color: #353535;
+    min-width: 650px;
+    margin-right: 20px;
+}
+section .container h2{
+    font-family: 'roboto';
+    font-size: 30px;
+    color: #353535;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+#media img{
+    height: 14px;
+    margin-top: none;
+}
+#media li{
+    display: inline-block;
+}
+#about ul{
+    margin-left: 15px;
+    margin-top: 8px;
+}
+body header{
+    box-shadow: 0px 1px 5px 0px #353535d3;
+}
+
+#menu li a:hover{
+    
+    color: rgb(156, 194, 245);
+}
+
+#fav img{
+    height:300px;
+    border-radius: 20px;
+    margin-right: 40px;   
+}
+#fav{
+    display: flex;
+    background-color: #FCE7D0;
+    margin-top: 100px;
+    padding: 0px 20px 30px 20px;
+    border-radius: 0px 77px 0px 77px;
+    box-shadow: 1px 2px 4px 0px #353535d3;
+}
+
+
+#fav #media{
+    margin-top: 20px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 600;
+    color: #353535;
+}
+
+#ram a{
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    color:white;
+    font-weight: 600;
+    background-color: #353535;
+    padding: 8px;
+    border-radius: 20px;
+}
+#ram a:hover{
+    background-color: #e47c0d;
+}
+#ram p{
+    margin-bottom: 15px;
+}
+
+#sgt a{
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    color:white;
+    font-weight: 600;
+    background-color: #353535;
+    padding: 8px;
+    border-radius: 20px;
+}
+#sgt a:hover{
+    background-color: #04b2f7;
+}
+#sgt p{
+    margin-bottom: 15px;
+}
+
+#sgtp img{
+    height:300px;
+    border-radius: 20px;
+    margin-right: 40px;   
+}
+#sgtp{
+    display: flex;
+    background-color: #E2F7FF;
+    margin-top: 20px;
+    padding: 0px 20px 30px 20px;
+    border-radius: 77px 0px 77px 0px;
+    box-shadow: 1px 2px 4px 0px #353535d3;
+}
+
+
+#sgtp #media{
+    margin-top: 20px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 600;
+    color: #353535;
+}
+
+#run a{
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    color:white;
+    font-weight: 600;
+    background-color: #353535;
+    padding: 8px;
+    border-radius: 20px;
+}
+#run a:hover{
+    background-color: #6104f7;
+}
+#run p{
+    margin-bottom: 15px;
+}
+
+#band img{
+    height:300px;
+    border-radius: 20px;
+    margin-right: 40px;   
+}
+#band{
+    display: flex;
+    background-color: #EDEEF0;
+    margin-top: 20px;
+    padding: 0px 20px 30px 20px;
+    border-radius: 0px 77px 0px 77px;
+    box-shadow: 1px 2px 4px 0px #353535d3;
+}
+
+
+#band #media{
+    margin-top: 20px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 600;
+    color: #353535;
+}
+
+#contato .container h2{
+    text-align: center;
+}
+
+form{
+    align-items: center;
+}
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 480px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button{
+    background-color: #353535;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #7397fc;
+}
+input:focus, textarea:focus{
+    outline-color: #182c61;
+}
+
+#contato .container {
+    text-align: center;
+}
+
+#form-container {
+    margin-top: 30px;
+}
+
+form {
+    display: inline-block;     
+    margin-top: 20px; 
+}
+
+footer{
+    background-color: #353535;
+    color: #ecf0f1;
+    padding:16px 0px;
+    text-align: center;
+    margin-top: 30px;
+}
